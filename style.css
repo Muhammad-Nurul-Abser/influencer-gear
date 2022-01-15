@@ -166,11 +166,10 @@ span {
     border-radius: 8px;
 
 }
-#margn{
+.margn{
     margin-left: 8px;
 }
 #light-color{
-    margin-left: 8px;
     opacity: 0.75;
 }
 .img-resize{
@@ -179,4 +178,16 @@ span {
     height: 450px;
     margin: 10px;
     border-radius: 8px;
+}
+.checked {
+    color: orange;
+    font-size: 10px;
+}
+.nchecked{
+    color: black;
+    font-size: 10px;
+}
+.rate{
+    color: black;
+    margin-left: 8px;
 }
