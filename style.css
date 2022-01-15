@@ -33,28 +33,8 @@ body{
     width: 60%;
 
 }
-/* it is use for doing nav bar responsive */
-@media only screen and ( max-width:668px) {
-    .nav-right{
-        display: none;
-    }
 
-    .title{
-        width: 100%;
-        text-align: center;
-    }
 
-}
-@media only screen and(min-width: 374px){
-
-    .nav-right{
-        display: none;
-    }
-    .title{
-        width: 100%;
-        text-align: center;
-    }
-}
 
 /* making first section */
 
@@ -96,32 +76,7 @@ span {
     margin: 100px;
 }
 
-/* First section responsive */
-@media only screen and (max-width:668px){
-    .flex-container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .main-camera img{
-        background-image: none;
-        width: 300px;
-        margin-top: 60px;
-        margin-left: 7px;
-    }
-    .f-sec-note{
-        font-size: 50px;
-        margin-top: 60px;
-        margin-left: 10px;
-    }
-    
-}
-@media only screen and (min-width:374px) {
-    .start-div{
-        align-items: center;
 
-    }
-    
-}
 
 /* Payment cart add */
 .payment{
@@ -134,14 +89,6 @@ span {
     margin-left: 60px;
 }
 
-@media only screen and (max-width:667px){
-    .payment{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 15px;
-    }
-    
-}
 
 /* third section */
 .max-photo{
@@ -191,3 +138,85 @@ span {
     color: black;
     margin-left: 8px;
 }
+#for-buyers{
+    margin-left: 8px;
+}
+
+/* see more button */
+#more-button{
+    text-decoration: none;
+    color: tomato;
+    font-weight:800;
+    background-color: blanchedalmond;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+/* second arrow symbol */
+#arrow{
+    content: "\2192";
+    color: tomato;
+}
+
+
+@media only screen and ( max-width:668px) {
+    .nav-right{
+        display: none;
+    }
+
+    .title{
+        width: 100%;
+        text-align: center;
+    }
+
+    .flex-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-camera img{
+        background-image: none;
+        width: 300px;
+        margin-top: 60px;
+        margin-left: 7px;
+    }
+    .payment{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 15px;
+    }
+    .f-sec-note{
+        font-size: 50px;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    .max-photo{
+        margin-left: auto;
+        margin-right: auto;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            background-color: blue;
+            width: 70%;
+    }
+    .title{
+        margin-left: 0;
+    }
+}
+@media only screen and(min-width: 374px){
+
+    .nav-right{
+        display: none;
+    }
+    .title{
+        width: 100%;
+        text-align: center;
+    }
+    .start-div{
+        align-items: center;
+    
+    }
+    
+    
+}
+
+
