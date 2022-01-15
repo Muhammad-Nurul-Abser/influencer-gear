@@ -16,8 +16,7 @@ body{
 .nav{
     display: flex;
     overflow: hidden;
-    margin: 0;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 .nav-right a{
     float: right;
@@ -39,12 +38,15 @@ body{
     .nav-right{
         display: none;
     }
+
     .title{
         width: 100%;
         text-align: center;
     }
+
 }
-@media only screen and(min-width: 374){
+@media only screen and(min-width: 374px){
+
     .nav-right{
         display: none;
     }
@@ -52,4 +54,129 @@ body{
         width: 100%;
         text-align: center;
     }
+}
+
+/* making first section */
+
+.f-sec-note{
+    font-size: 50px;
+    margin-top: 100px;
+}
+#notes{
+    word-wrap: break-word;
+}
+
+/* design arrow sign */
+span {
+    content: "\2192";
+    color: beige;
+    font-weight: 800;
+}
+
+#fisrt-button{
+    text-decoration: none;
+    color: beige;
+    background-image: linear-gradient(#FF4331 ,#D31A50);
+    padding: 8px 20px 8px 20px;
+    font-size: 20px;
+    width: 80px;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+.main-camera img{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    position: middle;
+    width: 520px;
+}
+
+.flex-container{
+    display: flex;
+    margin: 100px;
+}
+
+/* First section responsive */
+@media only screen and (max-width:668px){
+    .flex-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-camera img{
+        background-image: none;
+        width: 300px;
+        margin-top: 60px;
+        margin-left: 7px;
+    }
+    .f-sec-note{
+        font-size: 50px;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    
+}
+@media only screen and (min-width:374px) {
+    .start-div{
+        align-items: center;
+
+    }
+    
+}
+
+/* Payment cart add */
+.payment{
+    padding: 20px;
+    margin-right: 10%;
+    margin-left: 8%;
+    display: flex;
+}
+.payment img{
+    margin-left: 60px;
+}
+
+@media only screen and (max-width:667px){
+    .payment{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 15px;
+    }
+    
+}
+
+/* third section */
+.max-photo{
+    margin-left: auto;
+
+    margin-right: auto ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: blue;
+    width: 72%;
+}
+#title2{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 30px;
+}
+.max-photo img{
+    width: 285px;
+    height: 230px;
+    margin-left: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+
+}
+#margn{
+    margin-left: 8px;
+}
+#light-color{
+    margin-left: 8px;
+    opacity: 0.75;
+}
+.img-resize{
+    background-color: bisque;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 8px;
 }
