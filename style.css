@@ -97,7 +97,6 @@ span {
     margin-right: auto ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: blue;
     width: 72%;
 }
 #title2{
@@ -124,6 +123,8 @@ span {
     height: 450px;
     margin: 10px;
     border-radius: 8px;
+    background-color: #e6e6ff;
+
 }
 .checked {
     color: orange;
